@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    padding: 15px 0;
+    background-color: #461c52 !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+.navbar-brand{
+    padding: 0 15px !important;
+}
+.navbar-brand img{
+    height: 60px;
+    max-width: 250px;
+}
+.navbar ul li a{
+    color: #ECE3F0 !important;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in;
+}
+/* Responsive menu starts */
+.navbar ul li a:hover{
+    background-color: #8e60a0 !important;
+    color: #33213b !important;
+}
+.navbar-toggle{
+    border: 0.5px solid #8e60a0 !important;
+    transition: all 0.3s ease-in;
+}
+.navbar-toggle:hover{
+    background-color: #8e60a0 !important;
+}
+.navbar-inverse .navbar-collapse{
+    border-color: transparent !important;
+}
+/*Navigation ends here*/

@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* Menu-bar starts */
+.navbar{
+    padding: 15px 0;
+    background-color: #ECE3F0 !important;
+    border-bottom: none !important;
+}
+.navbar-brand{
+    padding: 0 15px !important;
+}
+.navbar-brand img{
+    height: 60px;
+    max-width: 250px;
+}
+.navbar ul li a{
+    color: #ECE3F0 !important;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in;
+}
+/* Responsive menu starts */
+.navbar ul li a:hover{
+    background-color: #8e60a0 !important;
+    color: #33213b !important;
+}
+.navbar-toggle{
+    border: 0.5px solid #8e60a0 !important;
+    background-color: #461c52 !important;
+    transition: all 0.3s ease-in;
+}
+.navbar-inverse .navbar-toggle:hover{
+    background-color: #8e60a0 !important;
+}
+.navbar-inverse .navbar-collapse{
+    border-color: transparent !important;
+}
+.navbar-inverse{
+    background-color: transparent !important;
+    
+}
+@media screen and (max-width:430px){
+    .navbar-inverse{
+        background-color: #461c52 !important;
+    }
+}
+/* Responsive menu ends  */
+
+/* Sticky navbar*/
+.secondary {
+    background-color:#461c52 !important;
+}
+/* Menu bar ends*/
+
+/* Slider starts*/
+.slider{
+    color: white;
+    width: 100%;
+    height: 500px;
+    background: url("https://source.unsplash.com/1600x900/?happy") no-repeat center center/cover;
+}
+.slider-overlay{
+    width:100%;
+    height:100%;
+    position: relative;
+    background: rgba(0,0,0,0.65);
+}
+.slider-content{
+    position:absolute;
+    top:30%;
+    width: 100%;
+}
+.slider .text, .slider .typed-cursor{
+    display: inline;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #BC97C6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icons .fa{
+    font-size: 40px;
+    margin:10px 10px;
+    padding: 5px 5px;
+}
+.cta-div{
+    margin-top: 20px;
+}
+.btn1{
+    margin-right: -4px;
+    padding: 12px 12px;
+    color:  #ECE3F0;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+    border: 1px solid  #8e60a0;
+    border-top-right-radius: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 0.5s ease-out;
+}
+.btn1:hover{
+    background-color: #8e60a0;
+    color:white;
+    text-decoration: none;
+    border: 1px solid #8e60a0;
+}
+.btn2{
+    margin-right: 4px;
+    padding: 12px 12px;
+    color:  #ECE3F0;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+    border: 1px solid  #8e60a0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: none;
+    transition: all 0.5s ease-out;
+}
+.btn2:hover{
+    background-color: #8e60a0;
+    color:white;
+    text-decoration: none;
+    border: 1px solid #8e60a0;
+}
+/*Responsive slider*/
+@media screen and (max-width:430px){
+    .slider .text, .slider .typed-cursor{
+        display: none;
+    }
+    .slider a.btn1, a.btn2{
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .slider{
+        height:300px;
+    }
+    .footer{
+        display: none;
+    }
+}
+/* Slider ends*/
+
+/*Workshop section starts*/
+.container .sub-section{
+    display: flex;
+    padding: 0 40px;
+}
+.workshop-wrap1{
+    /*background: url("https://source.unsplash.com/1600x900/?self-love") no-repeat center center/cover;*/
+    height: 300px;
+    max-width: 545px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.workshop-content{
+    
+    color: black;
+    box-sizing: border-box;
+    margin-left: 20px;
+    
+}
+.post-section .sub-section .workshop-content h3{
+    margin-top: 0 !important;
+    margin-bottom: 5px !important;
+}
+
+/*.workshop-wrap1 img{
+    height: 300px;
+    width: 545px !important;
+    margin: auto;
+}*/
+/*.workshop-wrap1:hover{
+    box-shadow: 0 0 10px rgb(43, 39, 39);
+    overflow: hidden;
+}*/
+
+.post-section .sub-section .workshop-content .readmore{
+    margin-top: 10px;
+    padding: 12px 12px;
+    color:  #290538;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+    border: 1px solid  #8e60a0;
+    transition: all 0.5s ease-out;
+}
+.post-section .sub-section .workshop-content .readmore:hover{
+    background-color: #8e60a0;
+    color:white;
+    text-decoration: none;
+    border: 1px solid #8e60a0;
+}
+/*Workshop page css starts*/
+
+/*Workshop page css ends*/
+
+/* Responsive workshop*/
+@media screen and (max-width:430px){
+    .workshop-title h2{
+        margin-top: 0 !important;
+    }
+    .container .sub-section{
+        flex-direction: column;
+    }
+    .workshop-wrap1{
+        margin: 0;
+    }
+    .workshop-content{
+        display: block;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width:715px){
+    .workshop-title h2{
+        margin-top: 0 !important;
+    }
+    .container .sub-section{
+        flex-direction: column;
+    }
+    .workshop-wrap1{
+        margin: 0;
+    }
+    .workshop-content{
+        display: block;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+}
+/*Workshop section ends*/
+
+/*Workshop Page css starts*/
+.workshop-area .container .row-workshop{
+    display:flex;
+}
+.workshop-selfdevlopment-img{
+    flex: 1;
+    padding: 0 0 0 70px;
+    margin: 0;
+    max-width: 45%;
+    text-align: center;
+}
+
+.workshop-selfdevlopment-content{
+    flex:1;
+
+}
+.workshop-selfdevlopment-links li a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.workshop-selfdevlopment-links li a:hover{
+    color: #8e60a0;
+}
+.workshop-selfdevlopment-content li{
+    list-style: none;
+}
+.workshop-selfdevlopment-img img{
+    height: 300px;
+    max-width: 300px;
+}
+
+.workshop-area .container .row-parenting{
+    display:flex;
+}
+
+.workshop-parenting-img{
+    flex: 1;
+    padding: 0 0 0 60px;
+    margin: 0;
+    max-width: 56%;
+    text-align: left;
+}
+.workshop-parenting-content{
+    flex:1;
+    text-align: end;
+}
+.workshop-parenting-links li a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.workshop-parenting-links li a:hover{
+    color: #8e60a0;
+}
+.workshop-parenting-content li{
+    list-style: none;
+}
+.workshop-parenting-img img{
+    height: 300px;
+    max-width: 300px;
+}
+
+.workshop-area .container .row-relationship{
+    display:flex;
+}
+
+.workshop-relationship-img{
+    flex: 1;
+    padding: 0 0 0 70px;
+    margin: 0;
+    max-width: 45%;
+    text-align: center;
+}
+.workshop-relationship-content{
+    flex:1;
+}
+.workshop-relationship-links li a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.workshop-relationship-links li a:hover{
+   color: #8e60a0;
+}
+.workshop-relationship-content li{
+    list-style: none;
+}
+.workshop-relationship-img img{
+    height: 300px;
+    max-width: 300px;
+    
+}
+
+/*Workshop Page css ends*/
+
+/*Footer section starts*/
+.footer{
+    color: white;
+    width: 100%;
+    background: #461c52;
+}
+.footer-overlay{
+    width:100%;
+    height:100%;
+    position: relative;
+    background: rgba(172, 172, 172, 0.65);
+}
+.footer .footer-overlay .container .rows{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+.footer-counseling{
+    flex: 1;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-workshop{
+    flex: 1;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-aboutus{
+    flex: 1;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-address{
+    flex: 1;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-links li{
+    list-style-type: none;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: white; 
+}
+.footer-links li a:hover{
+    text-decoration: underline  #33213b;
+    color: white;
+}
+.link-heading{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.footer-icons .fa{
+    font-size: 30px;
+    margin:10px 10px;
+    padding: 5px 5px;
+    color: #33213b;
+}
+.footer-icons .fa a{
+    text-decoration: none;  
+}
+.footer-icons .fa:hover{
+    text-decoration: none;
+    color: white;  
+}
+/*Footer section ends*/
